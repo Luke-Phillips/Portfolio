@@ -1,5 +1,5 @@
 project pages
+phi-templater pages
+    - check it out styles
 smaller card size
 project icons
-readme
-mobile style touchup (footer)

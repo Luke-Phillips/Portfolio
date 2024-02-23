@@ -54,7 +54,7 @@ export default function Page() {
         <div className='w-5/6 lg:w-1/2'>
           <h1 className='mb-3 text-2xl'>What is Phi Templater?</h1>
           <p className='mb-12'>
-            Phi Templater is a VSCode extension that allows you to create
+            Phi Templater is a VS Code extension that allows you to create
             re-usable templates that generate files and folders into your
             project. Phi Templater supports variables for dynamic content, and
             in the future, it will support logic such as conditionals and loops
@@ -62,7 +62,7 @@ export default function Page() {
           </p>
           <h1 className='mb-3 text-2xl'>{"Raison D'etre"}</h1>
           <p className='mb-12'>
-            I built Phi Templater because I enjoy using VSCode, and I love
+            I built Phi Templater because I enjoy using VS Code, and I love
             building tools and libraries for other developers. Phi Templater
             began as a project to turn{' '}
             <Link
