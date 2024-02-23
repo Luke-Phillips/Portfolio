@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <div className='flex justify-center'>
-          <div className='relative pb-32 max-w-screen-2xl w-full min-h-screen flex flex-col justify-between'>
+          <div className='relative pb-64 lg:pb-32 max-w-screen-2xl w-full min-h-screen flex flex-col justify-between'>
             {children}
             <Footer />
           </div>

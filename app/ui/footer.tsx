@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <>
-      <hr className='mt-12 mx-6 text-gray-400' />
-      <div className='w-full h-32 absolute bottom-0 flex justify-center gap-12'>
+    <div className=''>
+      <hr className='mt-12 mb-6 lg:mb-0 mx-6 text-gray-400' />
+      <div className='w-full h-64 lg:h-32 absolute bottom-0 flex flex-col items-center lg:flex-row justify-center gap-12'>
         <Link
           href='https://www.github.com/Luke-Phillips'
           target='_blank'
@@ -34,7 +34,7 @@ export default function Footer() {
           />
           <p className='pl-1 self-center'>/luke-t-phillips</p>
         </Link>
-        <div className='self-center'>
+        <div className=''>
           <div className='flex my-1'>
             <div className='w-16 text-right text-gray-400'>email:</div>
             <div className='pl-2'>luke.thomas.phillips@gmail.com</div>
@@ -45,6 +45,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

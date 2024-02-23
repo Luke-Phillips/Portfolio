@@ -17,8 +17,8 @@ export default function Page() {
           <div className='self-end'>Phi Templater</div>
         </div>
       </ProjectHeader>
-      <div className='flex flex-col items-center lg:flex-row-reverse lg:justify-between lg:gap-6'>
-        <div className=''>
+      <div className='lg:m-12 flex flex-col items-center lg:flex-row-reverse lg:justify-between lg:gap-6'>
+        <div className='w-5/6 lg:w-auto'>
           <h1 className='mb-3 text-2xl'>Check It Out</h1>
           <div className='flex items-end gap-12 mb-12'>
             <Link
@@ -51,7 +51,7 @@ export default function Page() {
             </Link>
           </div>
         </div>
-        <div className='w-1/2'>
+        <div className='w-5/6 lg:w-1/2'>
           <h1 className='mb-3 text-2xl'>What is Phi Templater?</h1>
           <p className='mb-12'>
             Phi Templater is a VSCode extension that allows you to create
