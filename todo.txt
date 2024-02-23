@@ -1,0 +1,4 @@
+project pages
+smaller card size
+project icons
+readme
