@@ -75,9 +75,11 @@ export default function ProjectCard({
           {description}
         </p>
       </div>
-      <p className={`ml-6 mb-6 mr-6 ${gradient && 'text-lg'}`}>{`${
-        linkText ?? 'Learn More'
-      } ->`}</p>
+      <p
+        className={`ml-6 mb-6 mr-6 group-hover:text-xl ${
+          gradient && 'text-lg'
+        }`}
+      >{`${linkText ?? 'Learn More'} ->`}</p>
     </Link>
   );
 }

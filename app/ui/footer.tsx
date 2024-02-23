@@ -12,7 +12,7 @@ export default function Footer() {
           className='flex'
         >
           <Image
-            src='/icon/social/github-dark-round.png'
+            src='/icon/third-party/github-dark-round.png'
             width={48}
             height={48}
             className='object-contain'
@@ -26,11 +26,11 @@ export default function Footer() {
           className='flex'
         >
           <Image
-            src='/icon/social/linkedin-dark-round.png'
+            src='/icon/third-party/linkedin-dark-round.png'
             width={48}
             height={48}
             className='object-contain'
-            alt='Github icon'
+            alt='LinkedIn icon'
           />
           <p className='pl-1 self-center'>/luke-t-phillips</p>
         </Link>

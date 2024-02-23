@@ -60,7 +60,7 @@ export default function Page() {
   return (
     <div className='flex flex-col justify-start'>
       <ProjectHeader>Featured Projects</ProjectHeader>
-      <div className='flex flex-wrap justify-center md:justify-between gap-12 mt-12'>
+      <div className='flex flex-wrap justify-center md:justify-between gap-12 mt-12 mx-12'>
         {projects.map((project) => (
           <ProjectCard
             key={project.title}
