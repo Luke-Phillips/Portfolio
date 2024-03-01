@@ -27,11 +27,11 @@ const projects: Project[] = [
     link: '/projects/phi-ai',
   },
   {
-    icon: '',
+    icon: '/icon/project/godot-game-icon.png',
     title: 'Puzzle Game',
     subtitle: 'CoFi Game Jam',
     description: 'Puzzle game made with Godot for a game jam we held at work',
-    link: '/projects/cofi-game',
+    link: '/projects/godot-game',
     linkText: 'Play Here',
   },
   {
