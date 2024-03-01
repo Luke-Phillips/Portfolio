@@ -20,7 +20,7 @@ const projects: Project[] = [
     link: '/projects/phi-templater',
   },
   {
-    icon: '',
+    icon: '/icon/project/hammer-wrench.png',
     title: 'PhiAI',
     subtitle: 'C# library',
     description: 'A library for implementing game AI. Currently in development',
@@ -35,21 +35,21 @@ const projects: Project[] = [
     linkText: 'Play Here',
   },
   {
-    icon: '',
+    icon: '/icon/project/waggle-logo.svg',
     title: 'Waggle',
     subtitle: 'Peer Tutoring Platform',
     description: 'My university senior project',
     link: '/projects/waggle',
   },
   {
-    icon: '',
+    icon: '/icon/project/crossword-icon.png',
     title: 'Crossword',
     subtitle: 'Clojure Project',
     description: 'Crossword puzzle generator',
     link: '/projects/crossword',
   },
   {
-    icon: '',
+    icon: '/icon/project/hammer-wrench.png',
     title: 'And More...',
     description: "I'm always working on new things",
     link: '/projects/crossword',
