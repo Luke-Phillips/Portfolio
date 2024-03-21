@@ -7,7 +7,7 @@ export default function Page() {
     <div>
       <ProjectHeader>
         <div className='flex'>
-          <div className='self-end'>PhiAi</div>
+          <div className='self-end'>PhiAI</div>
         </div>
       </ProjectHeader>
       <div className='lg:m-12 flex flex-col items-center lg:flex-row-reverse lg:justify-between lg:gap-6'>
@@ -30,7 +30,11 @@ export default function Page() {
               </div>
               <h2 className='text-center mt-2 text-lg'>{'Github ->'}</h2>
             </Link>
-            <Link href='https://nuget.org' target='_blank' className=''>
+            <Link
+              href='https://www.nuget.org/packages/PhiAI/'
+              target='_blank'
+              className=''
+            >
               <div className='bg-white px-2 py-1 rounded-xl'>
                 <Image
                   src='/icon/third-party/nuget-light.png'
@@ -45,17 +49,17 @@ export default function Page() {
           </div>
         </div>
         <div className='w-5/6 lg:w-1/2'>
-          <h1 className='mb-3 text-2xl'>What is PhiAi?</h1>
+          <h1 className='mb-3 text-2xl'>What is PhiAI?</h1>
           <p className='mb-12'>
-            PhiAi is a C# library that can be used to implement your own game
-            AI. It is currently under development, but the intial release will
-            feature the Monte Carlo Tree Search Algorithm (MCTS). MCTS is a
-            heuristic algorithm that is great for use in perfect information
-            zero-sum games like chess, go, tic-tac-toe, etc.
+            PhiAI is a C# library that can be used to implement your own game
+            AI. It is currently in alpha and features the Monte Carlo Tree
+            Search Algorithm (MCTS). MCTS is a heuristic algorithm that is great
+            for use in perfect information, zero-sum games like chess, go,
+            tic-tac-toe, etc.
           </p>
           <h1 className='mb-3 text-2xl'>{"Raison D'etre"}</h1>
           <p className='mb-12'>
-            PhiAi began shortly after my obsessive studying of Deepmind&apos;s{' '}
+            PhiAI began shortly after my obsessive studying of Deepmind&apos;s{' '}
             <Link
               href='https://www.davidsilver.uk/wp-content/uploads/2020/03/unformatted_final_mastering_go.pdf'
               // href='https://www.researchgate.net/publication/292074166_Mastering_the_game_of_Go_with_deep_neural_networks_and_tree_search'
