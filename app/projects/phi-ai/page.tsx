@@ -35,7 +35,7 @@ export default function Page() {
               target='_blank'
               className=''
             >
-              <div className='bg-white px-2 py-1 rounded-xl'>
+              <div className='bg-white px-2 py-1 rounded-2xl'>
                 <Image
                   src='/icon/third-party/nuget-light.png'
                   width={160}
@@ -51,11 +51,11 @@ export default function Page() {
         <div className='w-5/6 lg:w-1/2'>
           <h1 className='mb-3 text-2xl'>What is PhiAI?</h1>
           <p className='mb-12'>
-            PhiAI is a C# library that can be used to implement your own game
-            AI. It is currently in alpha and features the Monte Carlo Tree
-            Search Algorithm (MCTS). MCTS is a heuristic algorithm that is great
-            for use in perfect information, zero-sum games like chess, go,
-            tic-tac-toe, etc.
+            PhiAI is a C# library downloadable as a NuGet package that can be
+            used to implement game AI. It is currently in alpha and features the
+            Monte Carlo Tree Search Algorithm (MCTS). MCTS is a heuristic
+            algorithm that is great for use in perfect information, zero-sum
+            games like chess, go, tic-tac-toe, etc.
           </p>
           <h1 className='mb-3 text-2xl'>{"Raison D'etre"}</h1>
           <p className='mb-12'>
@@ -80,7 +80,8 @@ export default function Page() {
             research papers. Under the hood, both algorithms use a Monte Carlo
             Tree Search (MCTS). MCTS is fairly domain agnostic, so I wanted to
             make a generic implementation that people could use to create AI in
-            whatever domain they wanted.
+            whatever domain they wanted. Future releases will feature many more
+            algorithms.
           </p>
         </div>
       </div>

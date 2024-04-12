@@ -16,14 +16,15 @@ const projects: Project[] = [
     title: 'Phi Templater',
     subtitle: 'VS Code Extension',
     description:
-      'Generates dynamic files and file structures from user-defined templates with support for variables',
+      'Generate dynamic files and file structures from user-defined templates with support for variables',
     link: '/projects/phi-templater',
   },
   {
-    icon: '/icon/project/hammer-wrench.png',
+    icon: '/icon/project/neural-net.svg',
     title: 'PhiAI',
     subtitle: 'C# library',
-    description: 'A library for implementing game AI. Currently in development',
+    description:
+      'Easily implement AI for your games with PhiAi. Alpha version is out now!',
     link: '/projects/phi-ai',
   },
   {
